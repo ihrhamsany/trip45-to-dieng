@@ -526,7 +526,16 @@
 
     <!-- NAVBAR -->
     <nav class="navbar">
-        <a href="#beranda" class="logo"><i class="fa-solid fa-mountain"></i> DiengTrip 45</a>
+        <a href="#beranda" class="logo">
+            <svg width="180" height="50" viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+                <!-- Elemen Gunung -->
+                <path d="M25 10 L40 40 L10 40 Z" fill="#059669" />
+                <path d="M40 20 L55 40 L25 40 Z" fill="#10b981" />
+                <!-- Teks Logo -->
+                <text x="65" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="22" fill="#059669">TRIP 45</text>
+                <text x="65" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="14" fill="#0f172a">to DIENG</text>
+            </svg>
+        </a>
         
         <!-- Toggle Button untuk Layar Kecil -->
         <div class="menu-toggle" id="mobile-menu">
@@ -559,7 +568,7 @@
         </div>
         <div class="armada-grid">
             <div class="armada-img-wrapper">
-                <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800" alt="Bus Pariwisata Eksekutif">
+                <img src="https://www.saturental.com/media/uploads/2025/05/saturental-foto-big-bus-pariwisata-u-trans-shd-hdd-jetbus-5-legacy-sr3-skylander-r22-terbaru-50s-59-seats-c.jpg#11496" alt="Bus Pariwisata Eksekutif">
             </div>
             <div class="armada-content">
                 <h3>PT. Umrindo Prima Trans</h3>
@@ -571,6 +580,9 @@
                     <li><i class="fa-solid fa-snowflake"></i> <div><strong>Kenyamanan Ekstra</strong><br><small>Full AC, Bantal, Selimut, dan Dispenser</small></div></li>
                     <li><i class="fa-solid fa-tv"></i> <div><strong>Hiburan Terpadu</strong><br><small>Smart TV Android, Mic Wireless, & USB Charger tiap kursi</small></div></li>
                 </ul>
+                <a id="btn-denah" href="https://lh3.googleusercontent.com/d/1L6uSTav0Z4beapF2QrTteQGYd99ziz0Y" target="_blank" class="btn-nav" style="margin-top: 25px; border:none; cursor:pointer; display:inline-flex; align-items:center; gap:8px; text-decoration: none;">
+                    <i class="fa-solid fa-chair"></i> Lihat Denah Kursi (50 Seat)
+                </a>
             </div>
         </div>
     </section>
@@ -583,31 +595,45 @@
         </div>
         <div class="destinasi-grid">
             <div class="card">
-                <img src="https://commons.wikimedia.org/w/index.php?title=Special:FilePath/Candi_Arjuna_Dataran_Tinggi_Dieng.jpg&width=800" alt="Candi Arjuna">
+                <img src="https://travelspromo.com/wp-content/uploads/2021/11/penampakan-bangunan-candi-di-komplek-wisata-Candi-Arjuna-e1638334989524.jpg" onerror="this.src='https://placehold.co/800x500/0f172a/ffffff?text=Candi+Arjuna'" alt="Candi Arjuna">
                 <div class="card-content">
                     <h4>Komplek Candi Arjuna</h4>
                     <p>Situs purbakala Hindu tertua di Pulau Jawa yang terletak di hamparan lembah hijau.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="https://commons.wikimedia.org/w/index.php?title=Special:FilePath/Telaga_Menjer.jpg&width=800" alt="Telaga Menjer">
+                <img src="https://ik.imagekit.io/tvlk/blog/2024/05/shutterstock_1400526452.jpg?tr=q-70,c-at_max,w-500,h-250,dpr-2" onerror="this.src='https://placehold.co/800x500/0f172a/ffffff?text=Telaga+Menjer'" alt="Telaga Menjer">
                 <div class="card-content">
                     <h4>Telaga Menjer</h4>
                     <p>Danau vulkanik terdalam di kawasan pegunungan Dieng dengan suasana yang tenang.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="https://commons.wikimedia.org/w/index.php?title=Special:FilePath/Dieng_Plateau.jpg&width=800" alt="Lanskap Dieng">
+                <img src="http://thespicerouteend.com/wp-content/uploads/2018/08/20180627-IMG_4533.jpg" onerror="this.src='https://placehold.co/800x500/0f172a/ffffff?text=Lanskap+Dieng'" alt="Lanskap Dieng">
                 <div class="card-content">
                     <h4>Swiss Van Java</h4>
                     <p>Menikmati lanskap dataran tinggi yang menyerupai keindahan perbukitan di Eropa.</p>
                 </div>
             </div>
-            <div class="card" style="background:#f1f5f9;">
-                <div class="card-content" style="height: 100%; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
-                    <i class="fa-solid fa-camera-retro" style="font-size: 40px; color: var(--primary); margin-bottom: 15px;"></i>
-                    <h4>+ Destinasi Lainnya</h4>
-                    <p style="margin-top: 10px;">Curug Sikarim, Kebun Teh Panama, & Titik 0 Dieng.</p>
+            <div class="card">
+                <img src="https://akcdn.detik.net.id/community/media/visual/2023/01/12/wisata-air-terjun-sikarim-dieng_169.jpeg?w=700&q=90" onerror="this.src='https://placehold.co/800x500/0f172a/ffffff?text=Curug+Sikarim'" alt="Curug Sikarim">
+                <div class="card-content">
+                    <h4>Curug Sikarim</h4>
+                    <p>Air terjun alami dengan rute perjalanan menantang namun menyuguhkan panorama luar biasa.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.jogjasuper.co.id/wp-content/uploads/2025/07/liburan-Kebun-Teh-Panama.jpg" onerror="this.src='https://placehold.co/800x500/0f172a/ffffff?text=Kebun+Teh+Panama'" alt="Kebun Teh Panama">
+                <div class="card-content">
+                    <h4>Kebun Teh Panama</h4>
+                    <p>Hamparan kebun teh yang sejuk dan menenangkan, cocok untuk refreshing dan bersantai.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ3NjQ2MTczODYxNjAzNDI2Nw==/original/566165d8-e8c1-4413-89c1-3243b444dd20.jpeg" onerror="this.src='https://placehold.co/800x500/0f172a/ffffff?text=Titik+0+Dieng'" alt="Titik 0 Dieng">
+                <div class="card-content">
+                    <h4>Titik 0 Dieng</h4>
+                    <p>Spot foto ikonik sebagai penanda dan bukti kenangan kunjungan ke Dataran Tinggi Dieng.</p>
                 </div>
             </div>
         </div>
@@ -632,11 +658,11 @@
                 <ul class="timeline">
                     <li>
                         <span class="time-badge">Menyesuaikan</span>
-                        <div class="timeline-desc"><strong>Berangkat dari Meeting Point</strong><br>Kumpul di SMA 45 Kelapa Gading Jakarta Utara.</div>
+                        <div class="timeline-desc"><br><strong>Berangkat dari Meeting Point</strong><br>Kumpul di SMA 45 Kelapa Gading Jakarta Utara.</div>
                     </li>
                     <li>
                         <span class="time-badge">17.00 - 00.00</span>
-                        <div class="timeline-desc"><strong>Makan Malam & Perjalanan</strong><br>Makan malam di Resto Rosin Subang, dilanjutkan perjalanan malam menuju Wonosobo via Secang Temanggung.</div>
+                        <div class="timeline-desc"><br><strong>Makan Malam & Perjalanan</strong><br>Makan malam di Resto Rosin Subang, dilanjutkan perjalanan malam menuju Wonosobo via Secang Temanggung.</div>
                     </li>
                 </ul>
             </div>
@@ -650,23 +676,23 @@
                     </li>
                     <li>
                         <span class="time-badge">06.00 - 08.30</span>
-                        <div class="timeline-desc">Perjalanan naik ke Dataran Tinggi Dieng menggunakan Micro Bus dan Sarapan Pagi.</div>
+                        <div class="timeline-desc"><br>Perjalanan naik ke Dataran Tinggi Dieng menggunakan Micro Bus dan Sarapan Pagi.</div>
                     </li>
                     <li>
                         <span class="time-badge">08.30 - 12.30</span>
-                        <div class="timeline-desc"><strong>Explore Dieng with Jeep</strong><br>Mengunjungi Curug Sikarim, Swiss Van Java, Kebun Teh Panama, dan Telaga Menjer.</div>
+                        <div class="timeline-desc"><strong><br>Explore Dieng with Jeep</strong><br>Mengunjungi Curug Sikarim, Swiss Van Java, Kebun Teh Panama, dan Telaga Menjer.</div>
                     </li>
                     <li>
                         <span class="time-badge">12.30 - 14.30</span>
-                        <div class="timeline-desc">Check In Homestay, Istirahat, Sholat, dan Makan Siang.</div>
+                        <div class="timeline-desc"><br>Check In Homestay, Istirahat, Sholat, dan Makan Siang.</div>
                     </li>
                     <li>
                         <span class="time-badge">14.30 - 16.30</span>
-                        <div class="timeline-desc">Explore Komplek Candi Arjuna.</div>
+                        <div class="timeline-desc"><br>Explore Komplek Candi Arjuna.</div>
                     </li>
                     <li>
                         <span class="time-badge">18.30 - 21.00</span>
-                        <div class="timeline-desc">Acara Makan Malam Bersama, dilanjutkan Waktu Bebas & Istirahat.</div>
+                        <div class="timeline-desc"><br>Acara Makan Malam Bersama, dilanjutkan Waktu Bebas & Istirahat.</div>
                     </li>
                 </ul>
             </div>
@@ -676,19 +702,19 @@
                 <ul class="timeline">
                     <li>
                         <span class="time-badge">06.30 - 07.30</span>
-                        <div class="timeline-desc">Sarapan Pagi di Homestay.</div>
+                        <div class="timeline-desc"><br>Sarapan Pagi di Homestay.</div>
                     </li>
                     <li>
                         <span class="time-badge">07.30 - 09.30</span>
-                        <div class="timeline-desc">Waktu Bebas & Hunting Oleh-oleh khas Dieng.</div>
+                        <div class="timeline-desc"><br>Waktu Bebas & Hunting Oleh-oleh khas Dieng.</div>
                     </li>
                     <li>
                         <span class="time-badge">09.30 - 11.00</span>
-                        <div class="timeline-desc">Persiapan Check Out dan perjalanan turun menuju Bus Utama di Kalianget.</div>
+                        <div class="timeline-desc"><br>Persiapan Check Out dan perjalanan turun menuju Bus Utama di Kalianget.</div>
                     </li>
                     <li>
                         <span class="time-badge">11.00 - 23.00</span>
-                        <div class="timeline-desc"><strong>Perjalanan Pulang ke Jakarta</strong><br>Makan siang di Resto ASS Purbalingga - Jawa Tengah, dilanjutkan perjalanan kembali ke SMAN 45.</div>
+                        <div class="timeline-desc"><strong><br>Perjalanan Pulang ke Jakarta</strong><br>Makan siang di Resto ASS Purbalingga - Jawa Tengah, dilanjutkan perjalanan kembali ke SMAN 45.</div>
                     </li>
                 </ul>
             </div>
@@ -731,8 +757,8 @@
 
     <!-- FOOTER -->
     <footer>
-        <h3>Panitia Trip Dieng SMAN 45 Jakarta</h3>
-        <p style="margin-top: 10px; color: #94a3b8; font-size: 14px;">Prototype Website Interaktif &copy; 2026. Didesain Khusus untuk Rapat Panitia.</p>
+        <h3>Panitia Trip45 to Dieng SMAN 45 Jakarta</h3>
+        <p style="margin-top: 10px; color: #94a3b8; font-size: 14px;">created by Iman H. Ramsani &copy; 2026.</p>
     </footer>
 
     <!-- INTERACTIVE SCRIPTS -->
@@ -813,7 +839,7 @@
                 }
             });
         });
+
     </script>
 </body>
 </html>
-```
